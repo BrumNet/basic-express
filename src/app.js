@@ -8,6 +8,7 @@ const items = require("./items/index.js")
 app.use('/api/v1/items', items);
 //app.use('/api/v2',  newroute);
 
+//test api
 app.get('/',  (req,res) => {
     res.send({message: 'ping success: connected to server. Append api/version/*number* to access api. e.g api/version/1', code: 200})
 });
